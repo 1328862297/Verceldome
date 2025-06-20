@@ -8,14 +8,14 @@ import pdflist from '../pages/pdflist.vue'
 import WordPage from '../pages/wordPage.vue'
 import typelist from '../pages/typelist.vue'
 import typeworks from '../pages/typeworks.vue'
-
+import background from '../pages/background.vue'
 const  router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
       name: 'Collection',
-      component: pdflist
+      component: background
     },
     {
       path: '/home',
